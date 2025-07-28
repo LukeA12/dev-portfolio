@@ -4,24 +4,39 @@ export default function About (props) {
           <div className="flex flex-col md:flex-row-reverse">
             <div className="mt-10 mb-5">
               {/* <img src="pfp4.JPG" className="rounded-full scale-75 md:scale-100 shadow-2xl" alt="pfp"/> */}
-              <img src="sanDiegoNick.jpg" className="rounded-full scale-75 md:scale-100 shadow-2xl" alt="pfp"/>
+              <img src="Luke_LinkedIn_Image.png" className="rounded-full scale-150 shadow-2xl" alt="pfp"/>
             </div>
             <div className="text-gray-800 text-center font-mono px-6 md:text-left">
                 <h1 className="mb-5 text-4xl">
                 About <span className="font-bold">Me</span>
                 </h1> 
-                <p className="my-5 text-lg lg:pr-24">Experienced in the fields of Software Engineering, Applied AI/ML, and Human-Computer Interaction. I grew up in a small Iowa farm town (home to the Field of Dreams) and currently live in Iowa City. Outside of programming, I enjoy lifting weights, cooking, and watching UFC events. I&apos;m always eager to learn new skills and technologies, so feel free to reach out regarding any software engineering related opportunities.</p>
+                <p className="my-5 text-lg lg:pr-24">I'm a sophomore majoring in Computer Engineering at Iowa State University, 
+                  originally from Ankeny, Iowa. Outside of academics, I enjoy fishing, working out, and spending time with friends. 
+                  I've interned at both John Deere—during the school year and summer—and SpaceX, gaining hands-on experience in embedded systems, 
+                  software engineering, and machine learning within large-scale engineering projects. Throughout college, I’ve worked 
+                  part-time as a year-round intern at John Deere, while also working as an undergraduate researcher in Iowa State’s 
+                  Advanced Manufacturing Lab. There, I’m leading a project to develop a low-cost 3D scanner. You can find 
+                  more details about my projects and experience below.</p>
                 <h3 className="mb-2 text-l">
-                <span className="font-bold">Languages</span>: C++, Python, Java, Swift, JavaScript
+                <span className="font-bold">Languages</span>: Python, Java, C++, C, Swift, HTML/CSS, JavaScript (React.js, Node.js), MATLAB, VHDL, assembly
                 </h3>
                 <h3 className="mb-2 text-l">
-                <span className="font-bold">Technologies</span>: PyTorch, TensorFlow, React.js, Node.js, AWS, Docker, Git, HTML/CSS
+                <span className="font-bold">Tools and Frameworks</span>: Git, Linux, OpenCV, PyTorch, TensorFlow, Jupyter Notebook, AWS, SQL, Qt, CMake, Bazel, Gradle, Docker, Jenkins
                 </h3>
                 <h3 className="mb-2 text-l">
-                <span className="font-bold">Engineering Experience</span>: SWE Intern @ Apple, John Deere, Bio::Neos
-                </h3> 
+                <span className="font-bold">Competencies</span>: Data Structures, Algorithms, OOP, Embedded Systems(UART, ADC, PWM, CAN), REST APIs, Multithreading, Networking (TCP/IP)
+                </h3>
                 <h3 className="mb-2 text-l">
-                <span className="font-bold">Notable Experience</span>: Holo Reality Lab Undergraduate Researcher, University of Iowa Teaching Assistant
+                <div>
+                <span className="font-bold">Engineering Experience</span>:
+                <ul className="list-disc list-inside mt-1">
+                  <li>Software Engineering Intern @ SpaceX</li>
+                  <li>Machine Learning and Robotics Engineering Intern @ John Deere</li>
+                  <li>Design Engineering Intern @ John Deere</li>
+                  <li>Embedded Software Engineering Intern @ John Deere</li>
+                  <li>Research Assistant @ Iowa State's Advanced Manufacturing Lab</li>
+                </ul>
+              </div>
                 </h3> 
             </div>
           </div>
