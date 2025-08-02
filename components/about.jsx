@@ -10,12 +10,12 @@ export default function About (props) {
                 <h1 className="mb-5 text-4xl">
                 About <span className="font-bold">Me</span>
                 </h1> 
-                <p className="my-5 text-lg lg:pr-24">I'm a sophomore majoring in Computer Engineering at Iowa State University, 
-                  originally from Ankeny, Iowa. Outside of academics, I enjoy fishing, working out, and spending time with friends. 
+                <p className="my-5 text-lg lg:pr-24">I'm an incoming Junior majoring in Computer Engineering at Iowa State University. 
+                  I was born and raised in Ankeny Iowa. In my free time, I enjoy fishing, working out, and spending time with friends. 
                   I've interned at both John Deere—during the school year and summer—and SpaceX, gaining hands-on experience in embedded systems, 
                   software engineering, and machine learning within large-scale engineering projects. Throughout college, I’ve worked 
                   part-time as a year-round intern at John Deere, while also working as an undergraduate researcher in Iowa State’s 
-                  Advanced Manufacturing Lab. There, I’m leading a project to develop a low-cost 3D scanner. You can find 
+                  Advanced Manufacturing Lab. There, I’m leading a project to develop a low-cost structured light 3D scanner. You can find 
                   more details about my projects and experience below.</p>
                 <h3 className="mb-2 text-l">
                 <span className="font-bold">Languages</span>: Python, Java, C++, C, Swift, HTML/CSS, JavaScript (React.js, Node.js), MATLAB, VHDL, assembly
