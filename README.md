@@ -30,11 +30,12 @@ Lints the code.
 ### `npm run build`
 
 Builds the app for production.
+Updates build files in the ./out directory.
 It correctly bundles Next in production mode and optimizes the build for the best performance.
 
 ### `npx serve ./out`
 
-Run this to locally preview the statically exported site as it would appear in production.
+Run this locally after running an `npm run build` to preview the statically exported site as it would appear in production (not the same as `npm run dev`).
 
 ## Deployment
 
