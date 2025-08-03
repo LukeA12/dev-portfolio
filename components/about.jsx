@@ -11,7 +11,7 @@ export default function About (props) {
                 About <span className="font-bold">Me</span>
                 </h1> 
                 <p className="my-5 text-lg lg:pr-24">I&apos;m an incoming Junior majoring in Computer Engineering at Iowa State University. 
-                  I was born and raised in Ankeny Iowa. In my free time, I enjoy fishing, working out, and spending time with friends. 
+                  I was born and raised in Ankeny, Iowa. In my free time, I enjoy fishing, working out, and spending time with friends. 
                   I&apos;ve interned at both John Deere—during the school year and summer—and SpaceX, gaining hands-on experience in embedded systems, 
                   software engineering, and machine learning within large-scale engineering projects. Throughout college, I’ve worked 
                   part-time as a year-round intern at John Deere, while also working as an undergraduate researcher in Iowa State’s 
