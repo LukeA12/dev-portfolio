@@ -174,7 +174,6 @@ const ProjectCard = ({ title, icon, description, mediaItems, sourceLink, devpost
 const ProjectsSection = () => {
   // Define all projects data
   const projectsData = [
-    // SmartDart Project
     {
       title: "SpaceX",
       //icon: <img src="spacex.svg" className="w-24 h-22 mr-0" />,
@@ -198,23 +197,27 @@ const ProjectsSection = () => {
         { text: "Networking (TCP/IP)", accent: false },
       ]
     },
-    // SlopeStats Project
-    // {
-    //   title: "SlopeStats",
-    //   icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
-    //   description: "🏂 SlopeStats is a watchOS + iOS app which has multiple modes of tracking activity for skiing & snowboarding. It offers run tracking (speed, heart rate, altitude), Speed Mode (Ghost racing), Resort & Weather Info (API)",
-    //   mediaItems: [
-    //     { type: 'video', src: 'SlopeStats/slopeStats.mp4' },
-    //   ],
-    //   sourceLink: "https://github.com/Nick-Hageman/SlopeStats",
-    //   badges: [
-    //     { text: "Swift" },
-    //     { text: "SwiftUI" },
-    //     { text: "Core Data" },
-    //     { text: "CoreMotion" },
-    //     { text: "HealthKit" }
-    //   ]
-    // },
+    {
+      title: "John Deere",
+      //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
+      description: [
+        "Machine Learning and Robotics Engineer (full-year intern) - John Deere See and Spray",
+        "Supported two machine learning/robotics projects: See and Spray and FurrowVision.",
+        "See and Spray uses computer vision and machine learning to detect and selectively spray weeds in real time, reducing herbicide usage."
+      ],
+      mediaItems: [
+        { type: 'image', src: 'JohnDeereSeeAndSpray.png' },
+      ],
+      sourceLink: "https://www.youtube.com/watch?v=bEbjcqIuvi0",
+      badges: [
+        { text: "Python" },
+        { text: "PyTorch" },
+        { text: "C++" },
+        { text: "Linux" },
+        { text: "CMake" },
+        { text: "Jenkins" }
+      ]
+    },
     // // FarmVision Project
     // {
     //   title: "🌽FarmVision",
