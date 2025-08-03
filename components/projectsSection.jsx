@@ -245,8 +245,8 @@ const ProjectsSection = () => {
       //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
       description: [
         "Embedded Software Engineer (full-year intern) - John Deere Sprayers",
-        "Developed embedded software for John Deere sprayers to enable real-time communication between vehicle subsystems over the CAN bus",
-        "Designed and implemented new user interface layouts in a Qt-based GUI for the in-cab display used in John Deere products",
+        "Developed embedded software for John Deere sprayers to enable real-time communication between vehicle subsystems over the CAN bus.",
+        "Designed and implemented new user interface layouts in a Qt-based GUI for the in-cab display used in John Deere products.",
       ],
       mediaItems: [
         { type: 'image', src: 'JohnDeereEmbedded.png' },
@@ -267,12 +267,34 @@ const ProjectsSection = () => {
       description: [
         "Research Assistant - Project Lead",
         "Researching under Dr. Frank Peters and leading a project to develop a low cost structured-light 3D scanner.",
-        "Built a prototype scanner with a scan accuracy within 4% of high-end models costing over $20,000, using only $2,000 of components",
+        "Built a prototype scanner with a scan accuracy within 4% of high-end models costing over $20,000, using only $2,000 of components.",
       ],
       mediaItems: [
         { type: 'image', src: 'ScannerFirstIteration.png' },
         { type: 'image', src: 'ScannerSecondIteration.png' },
         { type: 'image', src: 'ScanningCapability.png' },
+      ],
+      //sourceLink: "https://www.youtube.com/watch?v=bEbjcqIuvi0",
+      badges: [
+        { text: "C++" },
+        { text: "OpenCV" },
+        { text: "CMake" },
+        { text: "3D Printing" },
+        { text: "ESP32" },
+      ]
+    },
+    {
+      title: "FIRST Robotics",
+      //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
+      description: [
+        "Programming team, Mechanical Design team, Current Coach",
+        "Built a swerve drivetrain for the team robot to improve handling, then integrated an onboard camera system for autonomous navigation.",
+        "Returned to my high school team as a volunteer coach to teach engineering concepts to high school students.",
+      ],
+      mediaItems: [
+        { type: 'image', src: 'Robotics1.png' },
+        { type: 'image', src: 'Robotics2.png' },
+        { type: 'image', src: 'Robotics3.png' },
       ],
       //sourceLink: "https://www.youtube.com/watch?v=bEbjcqIuvi0",
       badges: [
