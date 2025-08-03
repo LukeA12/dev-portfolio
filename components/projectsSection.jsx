@@ -59,7 +59,7 @@ const ProjectCard = ({ title, icon, description, mediaItems, sourceLink, devpost
   };
 
   return (
-    <div className="card w-100 md:w-120 bg-mist-black my-3 shadow-xl">
+    <div className="card w-full md:w-[80rem] bg-mist-black my-3 shadow-xl flex flex-col min-h-[36rem] md:min-h-[38rem]">
       <figure className="relative overflow-hidden">
         {/* Only show navigation if there's more than one media item */}
         {mediaItems.length > 1 && (
