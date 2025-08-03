@@ -32,5 +32,12 @@ Lints the code.
 Builds the app for production.
 It correctly bundles Next in production mode and optimizes the build for the best performance.
 
+### `npx serve ./out`
 
+Run this to locally preview the statically exported site as it would appear in production.
 
+## Deployment
+
+On the GitHub website, navigate to Settings → Pages. Under the Build and deployment section, ensure the Source is set to GitHub Actions.
+
+The next.config.js and nextjs.yml files are already preconfigured, so you can simply push your changes to the main branch, and the site will be automatically deployed.
