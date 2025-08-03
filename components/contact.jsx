@@ -9,17 +9,16 @@ export default function Contact (props) {
             </h1> 
             <div>
               <span className="footer-title">Socials</span> 
-              <a href="http://www.linkedin.com/in/nick-hageman" target="_blank" rel="noopener noreferrer" className="link link-hover">LinkedIn</a>
-              <a href="https://github.com/Nick-Hageman" target="_blank" rel="noopener noreferrer" className="link link-hover">GitHub</a>
-              <a href="https://www.instagram.com/nick.hageman/" target="_blank" rel="noopener noreferrer" className="link link-hover">Instagram</a>
+              <a href="https://www.linkedin.com/in/luke-auderer" target="_blank" rel="noopener noreferrer" className="link link-hover">LinkedIn</a>
+              {/* <a href="https://github.com/Nick-Hageman" target="_blank" rel="noopener noreferrer" className="link link-hover">GitHub</a> */}
             </div> 
            <div>
             <span className="footer-title">Email</span> 
-            <a href="mailto:nickhageman8@gmail.com"className="link link-hover">nickhageman8@gmail.com</a>
+            <a href="mailto:lukeauderer@gmail.com"className="link link-hover">lukeauderer@gmail.com</a>
           </div>
           <div>
             <span className="footer-title">Resume</span> 
-            <a href="hagemanNick_resume2025.pdf" target="_blank" rel="noopener noreferrer" className="link link-hover">View Resume</a> 
+            <a href="LukeAudererResume.pdf" target="_blank" rel="noopener noreferrer" className="link link-hover">View Resume</a> 
           </div>
       </div>
       </div>    
