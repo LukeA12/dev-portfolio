@@ -1,15 +1,9 @@
 /** @type {import("next").NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  output: 'export', // <-- required for next export
+  output: 'export',
   images: {
-    unoptimized: true, // <-- avoids error with next/image
+    unoptimized: true,
   },
-  basePath: '/dev-portfolio', // required if hosted at github.com/username/YOUR-REPO-NAME
-  trailingSlash: true,         // improves GitHub Pages compatibility
-  eslint: {
-    ignoreDuringBuilds: true, // disable blocking on eslint errors
-  },
-};
+}
 
 module.exports = nextConfig;

@@ -10,9 +10,9 @@ export default function About (props) {
                 <h1 className="mb-5 text-4xl">
                 About <span className="font-bold">Me</span>
                 </h1> 
-                <p className="my-5 text-lg lg:pr-24">I'm an incoming Junior majoring in Computer Engineering at Iowa State University. 
+                <p className="my-5 text-lg lg:pr-24">I&apos;m an incoming Junior majoring in Computer Engineering at Iowa State University. 
                   I was born and raised in Ankeny Iowa. In my free time, I enjoy fishing, working out, and spending time with friends. 
-                  I've interned at both John Deere—during the school year and summer—and SpaceX, gaining hands-on experience in embedded systems, 
+                  I&apos;ve interned at both John Deere—during the school year and summer—and SpaceX, gaining hands-on experience in embedded systems, 
                   software engineering, and machine learning within large-scale engineering projects. Throughout college, I’ve worked 
                   part-time as a year-round intern at John Deere, while also working as an undergraduate researcher in Iowa State’s 
                   Advanced Manufacturing Lab. There, I’m leading a project to develop a low-cost structured light 3D scanner. You can find 
@@ -34,7 +34,7 @@ export default function About (props) {
                   <li>Machine Learning and Robotics Engineering Intern @ John Deere</li>
                   <li>Design Engineering Intern @ John Deere</li>
                   <li>Embedded Software Engineering Intern @ John Deere</li>
-                  <li>Research Assistant @ Iowa State's Advanced Manufacturing Lab</li>
+                  <li>Research Assistant @ Iowa State&apos;s Advanced Manufacturing Lab</li>
                 </ul>
               </div>
                 </h3> 
