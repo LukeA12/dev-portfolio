@@ -41,7 +41,7 @@ const ProjectCard = ({ title, icon, description, mediaItems, sourceLink, devpost
           autoPlay 
           muted 
           loop
-          className="w-full h-[600px] object-contain"
+          className="w-full max-h-[60vh] md:h-[600px] object-contain mx-auto"
         >
           <source src={currentMedia.src} type="video/mp4" />
           Your browser does not support the video tag.
@@ -52,7 +52,7 @@ const ProjectCard = ({ title, icon, description, mediaItems, sourceLink, devpost
         <img 
           src={currentMedia.src} 
           alt={`${title} - ${currentIndex + 1}`}
-          className="w-full h-[600px] object-contain" 
+          className="w-full max-h-[60vh] md:h-[600px] object-contain mx-auto" 
         />
       );
     }
@@ -152,7 +152,11 @@ const ProjectCard = ({ title, icon, description, mediaItems, sourceLink, devpost
           )}
         </div>
         
-        <p>{description}</p>
+        <div className="space-y-2">
+          {description.map((line, idx) => (
+            <p key={idx}>{line}</p>
+          ))}
+        </div>
         
         <div className="card-actions justify-end">
           {badges && badges.map((badge, index) => (
@@ -173,10 +177,14 @@ const ProjectsSection = () => {
     // SmartDart Project
     {
       title: "SpaceX",
-      //icon: <img src="SpaceX_logo_black.svg.Spng" className="w-24 h-22 mr-0" />,
-      description: "Software Engineering Internship",
+      //icon: <img src="spacex.svg" className="w-24 h-22 mr-0" />,
+      description: [
+        "Software Engineering Intern – Starlink Product Engineering",
+        "Contributed to the core systems enabling seamless communication between Starlink’s constellation of 8,000+ low Earth orbit satellites and millions of user terminals worldwide.",
+        "Designed and deployed fleet-wide telemetry to diagnose performance issues and improve network reliability at scale."
+      ],
       mediaItems: [
-        { type: 'image', src: 'LukeAudererWorkExperience1.png' }
+        { type: 'image', src: 'Starlink.png' }
       ],
       //articleLink: "https://engineering.uiowa.edu/news-all/2024/11/iowa-engineers-win-39500-iowa-innovation-challenge",
       //sourceLink: "https://github.com/Nick-Hageman/SmartDart",
