@@ -11,7 +11,7 @@ Second, install the required dependencies.
 npm install
 ```
 
-## Available Scripts
+## Available Commands
 
 In the project directory, you can run:
 
