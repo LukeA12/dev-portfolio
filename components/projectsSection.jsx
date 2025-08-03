@@ -261,6 +261,28 @@ const ProjectsSection = () => {
         { text: "CAN" }
       ]
     },
+    {
+      title: "Iowa State Industrial and Systems Engineering Department",
+      //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
+      description: [
+        "Research Assistant - Project Lead",
+        "Researching under Dr. Frank Peters and leading a project to develop a low cost structured-light 3D scanner.",
+        "Built a prototype scanner with a scan accuracy within 4% of high-end models costing over $20,000, using only $2,000 of components",
+      ],
+      mediaItems: [
+        { type: 'image', src: 'ScannerFirstIteration.png' },
+        { type: 'image', src: 'ScannerSecondIteration.png' },
+        { type: 'image', src: 'ScanningCapability.png' },
+      ],
+      //sourceLink: "https://www.youtube.com/watch?v=bEbjcqIuvi0",
+      badges: [
+        { text: "C++" },
+        { text: "OpenCV" },
+        { text: "CMake" },
+        { text: "3D Printing" },
+        { text: "ESP32" },
+      ]
+    },
   ];
 
   // Split projects into rows of 4
