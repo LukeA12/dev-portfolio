@@ -305,6 +305,29 @@ const ProjectsSection = () => {
         { text: "ESP32" },
       ]
     },
+        {
+      title: "ScholarSave",
+      //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
+      description: [
+        "Created an Android app to help students find scholarships, manage their money, and track their expenses.",
+        "The app incorporates personalized behavioral nudges to encourage smarter spending and saving habits.",
+        "Integrated real-time market data with user-friendly, gamified features to keep users engaged.",
+        "Presented ScholarSave at several high schools across the Des Moines metro area, where it is now being used in the financial literacy curriculum."
+      ],
+      mediaItems: [
+        { type: 'image', src: 'ScholarSave.png' },
+        { type: 'image', src: 'ScholarSaveStocks.png' },
+        { type: 'image', src: 'ScholarSaveScholarships.png' },
+      ],
+      //sourceLink: "https://www.youtube.com/watch?v=bEbjcqIuvi0",
+      badges: [
+        { text: "Android SDK" },
+        { text: "Kotlin" },
+        { text: "Gradle" },
+        { text: "REST APIs" },
+        { text: "AWS" },
+      ]
+    },
   ];
 
   // Split projects into rows of 4
