@@ -305,7 +305,27 @@ const ProjectsSection = () => {
         { text: "ESP32" },
       ]
     },
-        {
+    {
+      title: "MIPS Processors",
+      //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
+      description: [
+        "Designed and implemented a single-cycle processor, a software-scheduled pipelined processor, and a hardware-scheduled pipelined processor in VHDL.",
+        "Tested all processors on an FPGA board, ensuring correct functionality across the full MIPS instruction set.",
+        "Validated performance using custom assembly programs including bubble sort, merge sort, binary search, and a Fibonacci sequence generator."
+      ],
+      mediaItems: [
+        { type: 'video', src: 'MIPS_Processor.mp4' },
+      ],
+      //sourceLink: "https://www.youtube.com/watch?v=bEbjcqIuvi0",
+      badges: [
+        { text: "VHDL" },
+        { text: "Assembly" },
+        { text: "ModelSim-Intel FPGA Software Suite" },
+        { text: "Python" },
+        { text: "Linux" },
+      ]
+    },
+    {
       title: "ScholarSave",
       //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
       description: [
