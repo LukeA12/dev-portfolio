@@ -306,7 +306,7 @@ const ProjectsSection = () => {
       ]
     },
     {
-      title: "MIPS Processors",
+      title: "MIPS Processor Designs in VHDL",
       //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
       description: [
         "Designed and implemented a single-cycle processor, a software-scheduled pipelined processor, and a hardware-scheduled pipelined processor in VHDL.",
