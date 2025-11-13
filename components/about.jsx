@@ -10,7 +10,7 @@ export default function About (props) {
                 <h1 className="mb-5 text-4xl">
                 About <span className="font-bold">Me</span>
                 </h1> 
-                <p className="my-5 text-lg lg:pr-24">I&apos;m an incoming Junior majoring in Computer Engineering at Iowa State University. 
+                <p className="my-5 text-lg lg:pr-24">I&apos;m a Senior majoring in Computer Engineering at Iowa State University. 
                   I was born and raised in Ankeny, Iowa. In my free time, I enjoy fishing, working out, and spending time with friends. 
                   I&apos;ve interned at both John Deere—during the school year and summer—and SpaceX, gaining hands-on experience in embedded systems, 
                   software engineering, and machine learning within large-scale engineering projects. Throughout college, I’ve worked 
@@ -18,10 +18,10 @@ export default function About (props) {
                   Advanced Manufacturing Lab. There, I’m leading a project to develop a low-cost structured light 3D scanner. You can find 
                   more details about my projects and experience below.</p>
                 <h3 className="mb-2 text-l">
-                <span className="font-bold">Languages</span>: Python, Java, C++, C, Swift, HTML/CSS, JavaScript (React.js, Node.js), MATLAB, VHDL, assembly
+                <span className="font-bold">Languages</span>: Python, Java, C++, C, Swift, JavaScript (React.js, Node.js), HTML/CSS, MATLAB,
                 </h3>
                 <h3 className="mb-2 text-l">
-                <span className="font-bold">Tools and Frameworks</span>: Git, Linux, OpenCV, PyTorch, TensorFlow, Jupyter Notebook, AWS, SQL, Qt, CMake, Bazel, Gradle, Docker, Jenkins
+                <span className="font-bold">Tools</span>: Git, Linux, OpenCV, CUDA, PyTorch, TensorFlow, AWS, SQL, Qt, CMake, Gradle, Bazel, Android SDK, Ansible, Docker, Grafana
                 </h3>
                 <h3 className="mb-2 text-l">
                 <span className="font-bold">Competencies</span>: Data Structures, Algorithms, OOP, Embedded Systems(UART, ADC, PWM, CAN), REST APIs, Multithreading, Networking (TCP/IP)
