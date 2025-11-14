@@ -18,7 +18,7 @@ export default function About (props) {
                   Advanced Manufacturing Lab. There, I’m leading a project to develop a low-cost structured light 3D scanner. You can find 
                   more details about my projects and experience below.</p>
                 <h3 className="mb-2 text-l">
-                <span className="font-bold">Languages</span>: Python, Java, C++, C, Swift, JavaScript (React.js, Node.js), HTML/CSS, MATLAB,
+                <span className="font-bold">Languages</span>: Python, Java, C++, C, Swift, JavaScript (React.js, Node.js), HTML/CSS, MATLAB
                 </h3>
                 <h3 className="mb-2 text-l">
                 <span className="font-bold">Tools</span>: Git, Linux, OpenCV, CUDA, PyTorch, TensorFlow, AWS, SQL, Qt, CMake, Gradle, Bazel, Android SDK, Ansible, Docker, Grafana

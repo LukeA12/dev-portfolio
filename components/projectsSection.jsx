@@ -194,6 +194,8 @@ const ProjectsSection = () => {
         { text: "AWS", accent: false },
         { text: "Bazel", accent: false },
         { text: "Docker", accent: false },
+        { text: "Ansible", accent: false },
+        { text: "Grafana", accent: false },
         { text: "Networking (TCP/IP)", accent: false },
       ]
     },
@@ -202,7 +204,7 @@ const ProjectsSection = () => {
       //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
       description: [
         "Machine Learning and Robotics Engineer (full-year intern) - John Deere See and Spray",
-        "Supported two machine learning/robotics projects: See and Spray and FurrowVision.",
+        "Supported two machine learning and robotics projects: See and Spray and FurrowVision.",
         "See and Spray uses computer vision and machine learning to detect and selectively spray weeds in real time, reducing herbicide usage."
       ],
       mediaItems: [
@@ -213,9 +215,11 @@ const ProjectsSection = () => {
         { text: "Python" },
         { text: "PyTorch" },
         { text: "C++" },
+        { text: "CUDA" },
         { text: "OpenCV" },
         { text: "Linux" },
         { text: "CMake" },
+        { text: "Docker" },
         { text: "Jenkins" }
       ]
     },
@@ -234,9 +238,11 @@ const ProjectsSection = () => {
         { text: "Python" },
         { text: "PyTorch" },
         { text: "C++" },
+        { text: "CUDA" },
         { text: "OpenCV" },
         { text: "Linux" },
         { text: "CMake" },
+        { text: "Docker" },
         { text: "Jenkins" }
       ]
     },
@@ -258,6 +264,7 @@ const ProjectsSection = () => {
         { text: "MATLAB" },
         { text: "Qt" },
         { text: "CMake" },
+        { text: "Embedded Systems" },
         { text: "CAN" }
       ]
     },
@@ -279,6 +286,7 @@ const ProjectsSection = () => {
         { text: "C++" },
         { text: "OpenCV" },
         { text: "CMake" },
+        { text: "Onshape" },
         { text: "3D Printing" },
         { text: "ESP32" },
       ]
@@ -292,15 +300,20 @@ const ProjectsSection = () => {
         "Returned to my high school team as a volunteer coach to teach engineering concepts to high school students.",
       ],
       mediaItems: [
+        { type: 'image', src: 'robot3.jpg' },
+        { type: 'image', src: 'robot2.jpg' },
+        { type: 'image', src: 'robot1.png' },
         { type: 'image', src: 'Robotics1.png' },
         { type: 'image', src: 'Robotics2.png' },
         { type: 'image', src: 'Robotics3.png' },
       ],
-      //sourceLink: "https://www.youtube.com/watch?v=bEbjcqIuvi0",
+      sourceLink: "https://team4646.org/",
       badges: [
         { text: "C++" },
+        { text: "Java" },
         { text: "OpenCV" },
-        { text: "CMake" },
+        { text: "Creo" },
+        { text: "Onshape" },
         { text: "3D Printing" },
         { text: "ESP32" },
       ]
@@ -332,7 +345,7 @@ const ProjectsSection = () => {
         "Created an Android app to help students find scholarships, manage their money, and track their expenses.",
         "The app incorporates personalized behavioral nudges to encourage smarter spending and saving habits.",
         "Integrated real-time market data with user-friendly, gamified features to keep users engaged.",
-        "Presented ScholarSave at several high schools across the Des Moines metro area, where it is now being used in the financial literacy curriculum."
+        "Presented ScholarSave to multiple high school classes across the Des Moines metro area as part of their financial literacy curriculum."
       ],
       mediaItems: [
         { type: 'image', src: 'ScholarSave.png' },
@@ -346,6 +359,7 @@ const ProjectsSection = () => {
         { text: "Gradle" },
         { text: "REST APIs" },
         { text: "AWS" },
+        { text: "SQL" },
       ]
     },
   ];
