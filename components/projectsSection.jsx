@@ -339,7 +339,29 @@ const ProjectsSection = () => {
       ]
     },
     {
-      title: "ScholarSave",
+      title: "TradeLens: Stock Investing Platform",
+      description: [
+        "Built a full-stack stock analytics platform using a React + TypeScript frontend, Flask API layer, and a Django/PostgreSQL backend.",
+        "Integrated Alpha Vantage to pull real-time and historical stock data, storing and organizing it in a scalable relational database.",
+        "Used Facebook Prophet to generate short and long term stock price forecasts, enabling users to compare predicted vs. actual returns.",
+        "Added a portfolio management feature allowing users to create portfolios, track their holdings, and monitor performance over time.",
+      ],
+      mediaItems: [
+        { type: 'video', src: 'tradelens.mp4' },
+      ],
+      badges: [
+        { text: "React" },
+        { text: "TypeScript" },
+        { text: "Flask" },
+        { text: "Django" },
+        { text: "PostgreSQL" },
+        { text: "Alpha Vantage API" },
+        { text: "Facebook Prophet" },
+        { text: "Machine Learning" }
+      ]
+    },
+    {
+      title: "ScholarSave: Student Financial App",
       //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
       description: [
         "Created an Android app to help students find scholarships, manage their money, and track their expenses.",
@@ -361,7 +383,7 @@ const ProjectsSection = () => {
         { text: "AWS" },
         { text: "SQL" },
       ]
-    },
+    }
   ];
 
   // Split projects into rows of 4
