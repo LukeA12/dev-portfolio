@@ -16,10 +16,7 @@ export default function Contact (props) {
             <span className="footer-title">Email</span> 
             <a href="mailto:lukeauderer@gmail.com"className="link link-hover">lukeauderer@gmail.com</a>
           </div>
-          <div>
-            <span className="footer-title">Resume</span> 
-            <a href="LukeAudererResume.pdf" target="_blank" rel="noopener noreferrer" className="link link-hover">View Resume</a> 
-          </div>
+
       </div>
       </div>    
     )
