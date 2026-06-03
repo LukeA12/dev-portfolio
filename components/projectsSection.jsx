@@ -18,7 +18,6 @@ const ProjectCard = ({ title, icon, description, mediaItems, sourceLink, devpost
   // Auto-play videos when they become active in the carousel
   useEffect(() => {
     const currentMedia = mediaItems[currentIndex];
-    if (!currentMedia || currentMedia.type !== 'video') return;
     if (currentMedia.type === 'video') {
       const videoElement = document.getElementById(`video-${title}-${currentIndex}`);
       if (videoElement) {
@@ -61,7 +60,7 @@ const ProjectCard = ({ title, icon, description, mediaItems, sourceLink, devpost
 
   return (
     <div className="card w-full md:w-[80rem] bg-mist-black my-3 shadow-xl flex flex-col min-h-[36rem] md:min-h-[38rem]">
-      {mediaItems.length > 0 && <figure className="relative overflow-hidden">
+      <figure className="relative overflow-hidden">
         {/* Only show navigation if there's more than one media item */}
         {mediaItems.length > 1 && (
           <>
@@ -105,8 +104,7 @@ const ProjectCard = ({ title, icon, description, mediaItems, sourceLink, devpost
             ))}
           </div>
         )}
-      </figure>}
-
+      </figure>
 
       <div className="card-body">
         <h2 className="card-title">
@@ -325,18 +323,18 @@ const ProjectsSection = () => {
       //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
       description: [
         "Designed and implemented a single-cycle processor, a software-scheduled pipelined processor, and a hardware-scheduled pipelined processor in VHDL.",
-        //"Tested all processors on an FPGA board, ensuring correct functionality across the full MIPS instruction set.",
+        "Tested all processors on an FPGA board, ensuring correct functionality across the full MIPS instruction set.",
         "Validated performance using custom assembly programs including bubble sort, merge sort, binary search, and a Fibonacci sequence generator."
       ],
       mediaItems: [
-        //{ type: 'video', src: 'MIPS_Processor.mp4' },
+        { type: 'video', src: 'MIPS_Processor.mp4' },
       ],
       //sourceLink: "https://www.youtube.com/watch?v=bEbjcqIuvi0",
       badges: [
         { text: "VHDL" },
         { text: "Assembly" },
-        //{ text: "ModelSim-Intel FPGA Software Suite" },
-        //{ text: "Python" },
+        { text: "ModelSim-Intel FPGA Software Suite" },
+        { text: "Python" },
         { text: "Linux" },
       ]
     },
