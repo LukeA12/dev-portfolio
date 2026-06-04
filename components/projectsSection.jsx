@@ -174,13 +174,28 @@ const ProjectCard = ({ title, icon, description, mediaItems, sourceLink, devpost
 const ProjectsSection = () => {
   // Define all projects data
   const projectsData = [
-    {
-      title: "SpaceX",
+    {      title: "Google",
+      description: [
+        "Machine Learning Intern - TPU Inference Team",
+        "Google's TPU Inference team enables large-scale deployment of machine learning models on Google's custom TPU hardware. As a Machine Learning Intern, I am working on improving LLM inference performance on Google's latest-generation TPUs through system and model-level optimizations. I am also developing an agentic workflow that automatically ports newly supported vLLM models and CUDA kernels to JAX/Pallas, which significantly reduces the time required to bring new open-source models to TPU platforms."
+      ],
+      mediaItems: [
+        { type: 'image', src: 'tpu.png' }
+      ],
+      badges: [
+        { text: "Python", accent: false },
+        { text: "JAX", accent: false },
+        { text: "Pallas", accent: false },
+        { text: "PyTorch", accent: false },
+        { text: "vLLM", accent: false },
+        { text: "CUDA", accent: false },
+        { text: "TPU", accent: false },
+      ]
+    },
+    {      title: "SpaceX",
       //icon: <img src="spacex.svg" className="w-24 h-22 mr-0" />,
       description: [
-        "Software Engineering Intern – Starlink Product Engineering",
-        "Contributed to the core systems enabling seamless communication between Starlink’s constellation of 8,000+ low Earth orbit satellites and millions of user terminals worldwide.",
-        "Designed and deployed fleet-wide telemetry to diagnose performance issues and improve network reliability at scale."
+        "Starlink provides high-speed satellite internet to millions of users around the world. As a Software Engineering Intern on the Product Engineering team, I developed firmware and telemetry systems for Starlink dishes and power supply units to enable large-scale monitoring and analysis of device performance across the global fleet. My work helped engineers identify performance trends, diagnose connectivity issues, and resolve a major recurring failure source that was costing the company an estimated $35,000 per week."
       ],
       mediaItems: [
         { type: 'image', src: 'Starlink.png' }
@@ -199,37 +214,36 @@ const ProjectsSection = () => {
         { text: "Networking (TCP/IP)", accent: false },
       ]
     },
+    // {
+    //   title: "John Deere",
+    //   //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
+    //   description: [
+    //     "Machine Learning and Robotics Engineer (full-year intern) - John Deere See and Spray",
+    //     "Supported two machine learning and robotics projects: See and Spray and FurrowVision.",
+    //     "See and Spray uses computer vision and machine learning to detect and selectively spray weeds in real time, reducing herbicide usage."
+    //   ],
+    //   mediaItems: [
+    //     { type: 'image', src: 'JohnDeereSeeAndSpray.png' },
+    //   ],
+    //   sourceLink: "https://www.youtube.com/watch?v=bEbjcqIuvi0",
+    //   badges: [
+    //     { text: "Python" },
+    //     { text: "PyTorch" },
+    //     { text: "C++" },
+    //     { text: "CUDA" },
+    //     { text: "OpenCV" },
+    //     { text: "Linux" },
+    //     { text: "CMake" },
+    //     { text: "Docker" },
+    //     { text: "Jenkins" }
+    //   ]
+    // },
     {
       title: "John Deere",
       //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
       description: [
-        "Machine Learning and Robotics Engineer (full-year intern) - John Deere See and Spray",
-        "Supported two machine learning and robotics projects: See and Spray and FurrowVision.",
-        "See and Spray uses computer vision and machine learning to detect and selectively spray weeds in real time, reducing herbicide usage."
-      ],
-      mediaItems: [
-        { type: 'image', src: 'JohnDeereSeeAndSpray.png' },
-      ],
-      sourceLink: "https://www.youtube.com/watch?v=bEbjcqIuvi0",
-      badges: [
-        { text: "Python" },
-        { text: "PyTorch" },
-        { text: "C++" },
-        { text: "CUDA" },
-        { text: "OpenCV" },
-        { text: "Linux" },
-        { text: "CMake" },
-        { text: "Docker" },
-        { text: "Jenkins" }
-      ]
-    },
-    {
-      title: "John Deere",
-      //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
-      description: [
-        "Machine Learning and Robotics Engineer (full-year intern) - John Deere FurrowVision",
-        "FurrowVision collects images and measures depth, optimizing seed placement to avoid obstructions."
-      ],
+        "CVML Robotics Engineer (Full-Year Intern) - John Deere FurrowVision",
+        "FurrowVision is a computer vision system that measures furrow depth and crop residue in real time while planting, helping farmers make informed planting decisions. As part of the FurrowVision team, I worked across machine learning, embedded software, testing, and user interface development to help transition the system from a research project into a customer-ready product.",],
       mediaItems: [
         { type: 'image', src: 'JohnDeereFurrowVision.png' },
       ],
@@ -237,8 +251,8 @@ const ProjectsSection = () => {
       badges: [
         { text: "Python" },
         { text: "PyTorch" },
+        { text: "MLflow" },
         { text: "C++" },
-        { text: "CUDA" },
         { text: "OpenCV" },
         { text: "Linux" },
         { text: "CMake" },
@@ -250,9 +264,8 @@ const ProjectsSection = () => {
       title: "John Deere",
       //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
       description: [
-        "Embedded Software Engineer (full-year intern) - John Deere Sprayers",
-        "Developed embedded software for John Deere sprayers to enable real-time communication between vehicle subsystems over the CAN bus.",
-        "Designed and implemented new user interface layouts in a Qt-based GUI for the in-cab display used in John Deere products.",
+        "Embedded Software Engineer (Full-Year Intern) - John Deere Sprayers",
+        "John Deere sprayers use embedded control systems to coordinate communication, monitoring, and precision application across many vehicle subsystems. In this role, I developed software for these systems, working on CAN-based communication, control algorithms, and operator interfaces. My work included improving communication, diagnosing issues in the nozzle control system, and enhancing the Qt-based display application used by operators in the field."
       ],
       mediaItems: [
         { type: 'image', src: 'JohnDeereEmbedded.png' },
@@ -273,8 +286,7 @@ const ProjectsSection = () => {
       //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
       description: [
         "Research Assistant - Project Lead",
-        "Researching under Dr. Frank Peters and leading a project to develop a low cost structured-light 3D scanner.",
-        "Built a prototype scanner with a scan accuracy comparable to high-end models costing over $20,000, using only $2,000 of components.",
+        "The Advanced Manufacturing Lab at Iowa State focuses on developing practical manufacturing and robotics technologies. As a Research Assistant under Dr. Frank Peters, I am leading the development of a structured-light 3D scanner designed to provide a low-cost alternative to commercial scanners, which are extremely expensive and hard to use. So far, the prototype has achieved scan accuracy comparable to systems that cost more than ten times as much while remaining under a $2,000 budget. I attached some pictures of my work on the project."
       ],
       mediaItems: [
         { type: 'image', src: 'ScannerFirstIteration.png' },
@@ -295,9 +307,8 @@ const ProjectsSection = () => {
       title: "FIRST Robotics",
       //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
       description: [
-        "Programming team, Mechanical Design team, Current Coach",
-        "Built a swerve drivetrain for the team robot to improve handling, then integrated an onboard camera system for autonomous navigation.",
-        "Returned to my high school team as a volunteer coach to teach engineering concepts to high school students.",
+        "Programming team, Current Volunteer",
+        "During high school, I was a member of a John Deere-sponsored FIRST Robotics team, where I worked with other students on programming and building the competition robot. As part of the team, I helped develop a swerve drivetrain and onboard vision system to improve robot mobility and support autonomous operation. After graduating, I have volunteered my time to help out with some team projects. I attached some pictures of the team robot throughout the years."
       ],
       mediaItems: [
         { type: 'image', src: 'robot3.jpg' },
@@ -305,26 +316,22 @@ const ProjectsSection = () => {
         { type: 'image', src: 'robot1.png' },
         { type: 'image', src: 'Robotics1.png' },
         { type: 'image', src: 'Robotics2.png' },
-        { type: 'image', src: 'Robotics3.png' },
+        //{ type: 'image', src: 'Robotics3.png' },
       ],
       sourceLink: "https://team4646.org/",
       badges: [
-        { text: "C++" },
         { text: "Java" },
-        { text: "OpenCV" },
+        { text: "Python" },
         { text: "Creo" },
         { text: "Onshape" },
         { text: "3D Printing" },
-        { text: "ESP32" },
       ]
     },
     {
       title: "MIPS Processor Designs in VHDL",
       //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
       description: [
-        "Designed and implemented a single-cycle processor, a software-scheduled pipelined processor, and a hardware-scheduled pipelined processor in VHDL.",
-        "Tested all processors on an FPGA board, ensuring correct functionality across the full MIPS instruction set.",
-        "Validated performance using custom assembly programs including bubble sort, merge sort, binary search, and a Fibonacci sequence generator."
+        "Designed and implemented a single-cycle processor, a software-scheduled pipelined processor, and a hardware-scheduled pipelined processor in VHDL. Tested all processors on an FPGA board, ensuring correct functionality across the full MIPS instruction set. Validated performance using custom assembly programs including bubble sort, merge sort, binary search, and a Fibonacci sequence generator."
       ],
       mediaItems: [
         { type: 'video', src: 'MIPS_Processor.mp4' },
@@ -341,14 +348,12 @@ const ProjectsSection = () => {
     {
       title: "TradeLens: Stock Investing Platform",
       description: [
-        "Built a full-stack stock analytics platform using a React + TypeScript frontend, Flask API layer, and a Django/PostgreSQL backend.",
-        "Integrated Alpha Vantage to pull real-time and historical stock data, storing and organizing it in a scalable relational database.",
-        "Used Facebook Prophet to generate short and long term stock price forecasts, enabling users to compare predicted vs. actual returns.",
-        "Added a portfolio management feature allowing users to create portfolios, track their holdings, and monitor performance over time.",
+        "Built a full-stack stock analytics platform using a React + TypeScript frontend, Flask API layer, and a Django/PostgreSQL backend. Integrated Alpha Vantage to pull real-time and historical stock data, storing and organizing it in a scalable relational database. Used XGBoost to generate long-term (3 month) stock price forecasts, enabling users to compare predicted vs. actual returns. Added portfolio management features allowing users to create and backtest portfolios, track their holdings, and get investment advice through a chatbot.",
       ],
       mediaItems: [
-        { type: 'video', src: 'tradelens.mp4' },
+        { type: 'video', src: 'ApplicationRunThrough.mp4' },
       ],
+      sourceLink: "https://tradelens.space",
       badges: [
         { text: "React" },
         { text: "TypeScript" },
@@ -356,7 +361,7 @@ const ProjectsSection = () => {
         { text: "Django" },
         { text: "PostgreSQL" },
         { text: "Alpha Vantage API" },
-        { text: "Facebook Prophet" },
+        { text: "XGBoost" },
         { text: "Machine Learning" }
       ]
     },
@@ -364,10 +369,7 @@ const ProjectsSection = () => {
       title: "ScholarSave: Student Financial App",
       //icon: <img src="SlopeStats/slopeStatsAppIcon.png" alt="SlopeStats icon" className="w-6 h-6 mr-0" />,
       description: [
-        "Created an Android app to help students find scholarships, manage their money, and track their expenses.",
-        "The app incorporates personalized behavioral nudges to encourage smarter spending and saving habits.",
-        "Integrated real-time market data with user-friendly, gamified features to keep users engaged.",
-        "Presented ScholarSave to multiple high school classes across the Des Moines metro area as part of their financial literacy curriculum."
+        "Created an Android app to help students find scholarships, manage their money, and track their expenses. The app incorporates personalized behavioral nudges to encourage smarter spending and saving habits. Integrated real-time market data with user-friendly, gamified features to keep users engaged.",
       ],
       mediaItems: [
         { type: 'image', src: 'ScholarSave.png' },
@@ -377,7 +379,7 @@ const ProjectsSection = () => {
       //sourceLink: "https://www.youtube.com/watch?v=bEbjcqIuvi0",
       badges: [
         { text: "Android SDK" },
-        { text: "Kotlin" },
+        { text: "Java" },
         { text: "Gradle" },
         { text: "REST APIs" },
         { text: "AWS" },
