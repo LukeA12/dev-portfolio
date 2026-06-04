@@ -10,13 +10,13 @@ export default function About (props) {
                 <h1 className="mb-5 text-4xl">
                 About <span className="font-bold">Me</span>
                 </h1> 
-                <p className="my-5 text-lg lg:pr-24">I recently graduated from Iowa State University with a Bachelor's in Computer 
-                  Engineering and will be returning this fall to pursue a Master's in Artificial Intelligence and Machine Learning.
-                  I'm originally from Ankeny, Iowa, and outside of engineering I enjoy fishing, running, working out, and spending time with friends. 
+                <p className="my-5 text-lg lg:pr-24">I recently graduated from Iowa State University with a Bachelor&apos;s in Computer 
+                  Engineering and will be returning this fall to pursue a Master&apos;s in Artificial Intelligence and Machine Learning.
+                  I&apos;m originally from Ankeny, Iowa, and outside of engineering I enjoy fishing, running, working out, and spending time with friends. 
                   I have interned at Google, SpaceX, and John Deere (part-time during the school year and full-time during the summer), 
                   gaining hands-on experience in embedded systems, software engineering, and machine learning within large-scale 
-                  engineering projects. Throughout college, I’ve worked part-time as a year-round intern at John Deere, while also 
-                  working as an undergraduate researcher in Iowa State’s Advanced Manufacturing Lab. There, I’m leading a project to 
+                  engineering projects. Throughout college, I&apos;ve worked part-time as a year-round intern at John Deere, while also 
+                  working as an undergraduate researcher in Iowa State&apos;s Advanced Manufacturing Lab. There, I&apos;m leading a project to
                   develop a low-cost structured light 3D scanner. You can find more details about my projects and experience below.</p>
                 <h3 className="mb-2 text-l">
                 <span className="font-bold">Languages</span>: Python, Java, C++, C, JavaScript (React.js, Node.js), HTML/CSS, MATLAB, SQL
